@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="assignment1_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="147BC542-4891-1CA4-4876-31AD04F6D3D7">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>25</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="27FAC258-6FCD-93DE-B453-7950DC5A07D9">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="43699D55-497D-6BC0-9D3A-16EC991DC868">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="72CD4747-94C9-6771-4B31-6D4B16E16A2D">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="77D0E2FF-B976-01BA-9644-ACE6E6442DE5">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="AF1ADAE5-92FE-D8AA-E1AF-580512AE74C1">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="BD4F2F91-D83D-0DF5-AF6E-783E274DCF46">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_*_0_0" id="C8E4E29E-4F55-A3D7-65C3-6ABF81EE0DB3">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 13:39:37 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>assignment1_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

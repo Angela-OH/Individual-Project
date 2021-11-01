@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NF_APPLICANT" directorySegmentName="seg_0" id="278F9E4D-7828-ABB9-D206-54842ECD527A">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<schemaObject>C18E9ECC-E293-6759-5AD7-407C9B56B73F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8737DCEC-85FC-2BD7-24C9-9CF87AD7DD02</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ANO" id="008DCCB4-D05B-2A26-3BCA-1722B4CBCEDC">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANAME" id="2B41A1B5-3451-A12B-184A-BD7E068D32BA">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AEMAIL" id="46FAC73C-EABB-00E4-A263-39F66CBE7B2D">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APHONE" id="7E7D035F-93AE-68E8-36FE-67DEE118A7B4">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AADDRESS" id="A8DFA7D2-EA8A-7CEF-793A-BDAC206CB887">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APAID" id="BEF29750-96F4-F28B-B55D-D59800C6EAF2">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_F3" id="4B208904-67C3-71DC-3117-81CE74BD6532">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<schemaObject>C18E9ECC-E293-6759-5AD7-407C9B56B73F</schemaObject>
+<segment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_F3" id="640C6BB2-DFD4-7D35-28E4-437F49977CC2">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<segment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+<existingIndex>4B208904-67C3-71DC-3117-81CE74BD6532</existingIndex>
+<indexSegment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

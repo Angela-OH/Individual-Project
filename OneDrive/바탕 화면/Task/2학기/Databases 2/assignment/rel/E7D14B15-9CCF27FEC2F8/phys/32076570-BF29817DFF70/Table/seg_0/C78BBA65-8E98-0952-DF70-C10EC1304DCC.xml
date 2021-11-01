@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NF_LOCATION_CLASSIFICATION" directorySegmentName="seg_0" id="C78BBA65-8E98-0952-DF70-C10EC1304DCC">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<schemaObject>C18E9ECC-E293-6759-5AD7-407C9B56B73F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8737DCEC-85FC-2BD7-24C9-9CF87AD7DD02</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LTYPE" id="23F91FDA-7D86-7C0A-2A32-9DC4E24FD8F2">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LFACILITY" id="C674BEA2-AF98-65E3-2802-C8CD91E8FFAC">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_F7" id="B3671FE7-8A60-E2CA-6068-E707F92E2847">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<schemaObject>C18E9ECC-E293-6759-5AD7-407C9B56B73F</schemaObject>
+<segment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_F7" id="8E1304BA-701F-C685-5A12-3C0D40E98CE6">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<segment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</segment>
+<tableSpace>EFD24B47-CECB-D173-6891-48DB3233FFED</tableSpace>
+<existingIndex>B3671FE7-8A60-E2CA-6068-E707F92E2847</existingIndex>
+<indexSegment>69B098C5-01AC-8FD2-A77D-9E59CD6B5360</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C78BBA65-8E98-0952-DF70-C10EC1304DCC" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="NF_LOCATION_CLASSIFICATION">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>NF_LOCATION_CLASSIFICATION</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LTYPE" id="23F91FDA-7D86-7C0A-2A32-9DC4E24FD8F2">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION_CLASSIFICATION</sourceObjSchema>
+<sourceObjName>LTYPE</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LFACILITY" id="C674BEA2-AF98-65E3-2802-C8CD91E8FFAC">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION_CLASSIFICATION</sourceObjSchema>
+<sourceObjName>LFACILITY</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E1304BA-701F-C685-5A12-3C0D40E98CE6" name="PK_F7">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F7</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F91FDA-7D86-7C0A-2A32-9DC4E24FD8F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3671FE7-8A60-E2CA-6068-E707F92E2847" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="PK_F7">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F7</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F91FDA-7D86-7C0A-2A32-9DC4E24FD8F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

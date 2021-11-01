@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8EDB7634-D1D3-CF5A-F6A6-551A1A1D539D" containerWithKeyObject="2A706168-5776-7AF9-A6BB-AF1B556D9DB1" localFKIndex="F4D120FA-0160-4418-0463-F7179BF784A0" name="FK_F9_LOCATION">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>FK_F9_LOCATION</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<referredTableLongName>USER21.NF_LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>161AB451-59FA-5F4C-541C-24C51739F636</referredTableID>
+<keyObject>49263151-BF35-B5B4-ABD4-46BEBF715C4B</keyObject>
+<referredKeyID>49263151-BF35-B5B4-ABD4-46BEBF715C4B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

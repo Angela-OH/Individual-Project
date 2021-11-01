@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="161AB451-59FA-5F4C-541C-24C51739F636" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="NF_LOCATION">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>NF_LOCATION</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LNO" id="DF96420B-6EDF-9FEE-F9FA-8731788771F6">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION</sourceObjSchema>
+<sourceObjName>LNO</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LDESCRIPTION" id="86BDC210-A567-885E-D950-20BBEB32BE77">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION</sourceObjSchema>
+<sourceObjName>LDESCRIPTION</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LTYPE" id="01539D5B-28E1-7E28-BACB-3283A6481120">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION</sourceObjSchema>
+<sourceObjName>LTYPE</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9A13DBE-05D2-523F-FF1C-DB3B093F4C4F" referredColumn="23F91FDA-7D86-7C0A-2A32-9DC4E24FD8F2"/>
+</associations>
+</Column>
+<Column name="LCAPACITY" id="1AD75063-9FDE-16DD-3B57-87088D904830">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_LOCATION</sourceObjSchema>
+<sourceObjName>LCAPACITY</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49263151-BF35-B5B4-ABD4-46BEBF715C4B" name="PK_F8">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F8</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF96420B-6EDF-9FEE-F9FA-8731788771F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB0E52F8-1A22-91FA-7DE4-17A138D06664" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="PK_F8">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F8</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF96420B-6EDF-9FEE-F9FA-8731788771F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4F3770-B34E-4265-2092-4175956A81C4" name="FK_F8">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01539D5B-28E1-7E28-BACB-3283A6481120"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

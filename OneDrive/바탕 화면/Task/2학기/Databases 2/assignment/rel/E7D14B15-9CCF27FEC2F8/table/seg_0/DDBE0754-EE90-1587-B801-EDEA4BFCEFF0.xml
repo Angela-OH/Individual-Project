@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDBE0754-EE90-1587-B801-EDEA4BFCEFF0" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="NF_ENROLMENT">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>NF_ENROLMENT</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MNO" id="DD60937B-1EA6-8DA1-2319-736C0BA61865">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_ENROLMENT</sourceObjSchema>
+<sourceObjName>MNO</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4FB7A18-0515-26AA-52AA-E3793A804582" referredColumn="92E11998-734B-C46A-B616-A09AE4D8579E"/>
+</associations>
+</Column>
+<Column name="ANO" id="BC585597-8A3F-02A0-DA50-9A8EA311585F">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_ENROLMENT</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B94CC2A9-3D57-5C14-4C4B-A44C9CBB7F77" referredColumn="008DCCB4-D05B-2A26-3BCA-1722B4CBCEDC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CADAE22B-18BA-C43C-8CCA-191E1BF939BD" name="PK_F4">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F4</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD60937B-1EA6-8DA1-2319-736C0BA61865"/>
+<colUsage columnID="BC585597-8A3F-02A0-DA50-9A8EA311585F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="514DEA4E-1722-F79C-CB84-8645F5613036" schemaObject="C18E9ECC-E293-6759-5AD7-407C9B56B73F" name="PK_F4">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F4</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD60937B-1EA6-8DA1-2319-736C0BA61865"/>
+<colUsage columnID="BC585597-8A3F-02A0-DA50-9A8EA311585F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="311849B8-23FD-A657-38B1-C082023916B1" name="FK_F4_APPLICANT">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC585597-8A3F-02A0-DA50-9A8EA311585F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E532775-9437-7B9F-99E0-71751B2C7DD7" name="FK_F4_MODULE_1">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 14:46:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD60937B-1EA6-8DA1-2319-736C0BA61865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
