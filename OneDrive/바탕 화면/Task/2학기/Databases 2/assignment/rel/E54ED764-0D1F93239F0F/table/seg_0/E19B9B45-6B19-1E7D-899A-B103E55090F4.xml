@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E19B9B45-6B19-1E7D-899A-B103E55090F4" schemaObject="ACC17B44-BA17-0857-9AC6-ECDE4CD92289" name="NF_ENROLMENT">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>NF_ENROLMENT</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MNO" id="3171591F-0389-1CE8-644E-640ACEA878F1">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_ENROLMENT</sourceObjSchema>
+<sourceObjName>MNO</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B63DEEB-A7A8-4FA1-58D1-3A4AE92C8703" referredColumn="5BFB1CF6-BD63-0FC1-F80E-0331CA02F1B3"/>
+</associations>
+</Column>
+<Column name="ANO" id="55ABE845-058D-459B-D655-4D662AC8D7FF">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_ENROLMENT</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A463E6-42F6-7F9A-159F-4ADD09BD6BE4" referredColumn="6E514BB0-B5D1-0568-D41C-371354DE91F7"/>
+</associations>
+</Column>
+<Column name="APAID" id="C8CD9D2D-E83B-8C1D-0B47-80638858FD7B">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>NF_ENROLMENT</sourceObjSchema>
+<sourceObjName>APAID</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EE0DDDF-FBE1-BF59-4D29-DA1988B1D8DC" name="PK_F4">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F4</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3171591F-0389-1CE8-644E-640ACEA878F1"/>
+<colUsage columnID="55ABE845-058D-459B-D655-4D662AC8D7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB4A2D6A-6E51-81F6-A81D-B17C74F33960" schemaObject="ACC17B44-BA17-0857-9AC6-ECDE4CD92289" name="PK_F4">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>PK_F4</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3171591F-0389-1CE8-644E-640ACEA878F1"/>
+<colUsage columnID="55ABE845-058D-459B-D655-4D662AC8D7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="378B6E5A-9500-591E-13AD-AF469A5D96EC" name="FK_F4_APPLICANT">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55ABE845-058D-459B-D655-4D662AC8D7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAC98A28-282C-9327-CFCB-0AE3281F1E49" name="FK_F4_MODULE_1">
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3171591F-0389-1CE8-644E-640ACEA878F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

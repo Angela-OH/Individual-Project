@@ -1,0 +1,29 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+{% if error %}
+{{ error }}
+<br>
+<br>
+{% endif %}
+
+<h1>Login</h1>
+
+<form method="POST" action="{% url 'home'%}">
+    {% csrf_token %}
+    Username:
+    <br>
+    <input name="username" type="text" value="">
+    <br>
+    Password:
+    <br>
+    <input name="password" type="password" value="">
+    <br>
+    <br>
+    <input class="btn btn-primary" type="submit" value="Login">
+    <a href="{% url 'signup' %}"><button type="button" class="btn btn-dark">회원가입</button></a>
+</form>
+
+
+{% endblock %}

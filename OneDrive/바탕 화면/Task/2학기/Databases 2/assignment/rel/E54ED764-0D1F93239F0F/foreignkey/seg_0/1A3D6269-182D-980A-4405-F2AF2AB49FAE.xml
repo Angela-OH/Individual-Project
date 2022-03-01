@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A3D6269-182D-980A-4405-F2AF2AB49FAE" containerWithKeyObject="1AA574F6-685A-62E3-E6A1-0A8D626683B3" localFKIndex="ADB39FAF-4B13-C1AF-9FDD-32C55000807B" name="FK_F9_FACILITATOR">
+<sourceConnName>user21</sourceConnName>
+<sourceObjSchema>USER21</sourceObjSchema>
+<sourceObjName>FK_F9_FACILITATOR</sourceObjName>
+<createdBy>wisdo</createdBy>
+<createdTime>2021-11-01 22:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<referredTableLongName>USER21.NF_FACILITATOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6697101E-3C82-C4E0-FCF6-5D72C5BD0DCC</referredTableID>
+<keyObject>B5886FE2-33F2-32F5-FB0E-ABB4B0C03DE6</keyObject>
+<referredKeyID>B5886FE2-33F2-32F5-FB0E-ABB4B0C03DE6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
