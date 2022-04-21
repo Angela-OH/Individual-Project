@@ -1,0 +1,50 @@
+<!-- Android Small - 1 (Start Page) -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_sma"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/android_sma" >
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/ellipse_1" />
+
+    <View
+        android:id="@+id/leprechaun_"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/leprechaun" />
+
+    <TextView
+        android:id="@+id/hello_i_am_"
+        android:layout_width="275dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="375dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/hello_i_am_"
+        android:textAppearance="@style/hello_i_am_" />
+
+</RelativeLayout>
+
+
