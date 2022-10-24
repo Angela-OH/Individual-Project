@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7BAEBD65-A0DA-5AB0-A75B-F8E3C12E15A0">
-<createdBy>wisdo</createdBy>
-<createdTime>2021-11-01 13:20:46 UTC</createdTime>
-<ownerDesignName>assignment</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A2A71E89-C5D7-2A24-00A4-D27C7D82CB71" mainViewID="47C1833B-F598-D0A8-67C3-35EAD8C36873">
-<createdBy>wisdo</createdBy>
-<createdTime>2021-11-01 13:20:46 UTC</createdTime>
-<ownerDesignName>assignment</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
